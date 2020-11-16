@@ -1,0 +1,129 @@
+body{
+    font-family: Staatliches;
+    font-size: 20px;
+    color: #4f3870;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+h2{
+    text-align: center;
+    font-size: 5.5vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+h3{
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 4vw;
+}
+#left-div{
+    background: linear-gradient(0.25turn, #28b1ec, #F64FA2);
+    color: white;
+    float: left;
+    position: relative;
+    width: 20%;
+    height: 11vw;
+    padding: 0 4%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    font-size: 7vw;
+    text-align: center;
+}
+#right-div{
+    background: linear-gradient(0.75turn, #FCA5A5, #F64FA2);
+    color: white;
+    float: right;
+    position: relative;
+    height: 11vw;
+    width: 20%;
+    padding: 0 4%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    font-size: 7vw;
+    text-align: center;
+}
+form{
+    text-align: right;
+    font-family: Comfortaa;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-top: 25px;
+    border-radius: 8px;
+    position: block;
+    background: linear-gradient(0.75turn, #5E2563, #28b1ec);
+    color: white;
+}
+input{
+    width: 60%;
+    margin-right: 12%;
+    text-align: left;
+    margin-top: 2%;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+::placeholder{
+    color: darkslateblue;
+    font-family: Comfortaa;
+}
+label{
+    font-size: 15px;
+}
+#submit-button{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 41%;
+    border: 5px solid #f74FA2;
+    background-color: transparent;
+    padding: 0.5vw 3vw;
+    color: white;
+    font-family: Staatliches;
+    font-size: 20px;
+}
+img{
+    object-fit: contain;
+}
+.new-meme{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+}
+.top-center{
+    position: absolute;
+    object-fit: contain;
+    width: 80%;
+    top: 25px;
+    text-align: center;
+    text-shadow: black;
+}
+.bottom-center{
+    position: absolute;
+    object-fit: contain;
+    bottom: 25px;
+    width: 80%;
+    text-align: center;
+    text-shadow: black;
+}
+#remove-button{
+    position: absolute;
+    background-color: #28b1ec;
+    border-color: #5E2563;
+    text-align: center;
+    color: white;
+    left: 90%;
+    top: 8px;
+}
